@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7a7f7107ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body> 
+    <!-- Navigation -->
+    <div id="header">
+        <h3 id="one">PORTFOLIO</h3>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul id="menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#mywork">Work</a></li>
+                <li><a href="#contactme">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>  
+
+    <!-- Hero Section -->
+    <section class="content">
+        <p class="main-text">HI, I AM <span>KISHORE KANNA R</span></p> 
+        <p class="animated-text">I am a FullStack Developer</p>  
+    </section>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="./zee/Dont.jpg" alt="Profile Image">                
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="align">As a recent graduate with a B.E. degree in Computer Science and Engineering, I am passionate about software development and eager to apply my skills in coding, problem solving, and team collaboration. Looking for an opportunity to use my superior knowledge and my advanced communication skills to effectively serve your company.</p>
+                    
+                    <!-- Tab Section -->
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="openTab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab(event, 'education')">Education</p>
+                        <p class="tab-links" onclick="openTab(event, 'experience')">Internship</p>
+                    </div>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content">
+                        <div id="skills" class="tab-panel active-tab">
+                            <p>✔ Front-End: HTML,CSS,JavaScript,Angular</p>
+                            <p>✔ Mid-Level: Java</p>
+                            <p>✔ Database: SQL</p>
+                            <p>✔ Others: Linux</p>
+                        </div>
+                        <div id="education" class="tab-panel">
+                            <ul>
+                            <li><p> B.E.Computer Science,Sri Sairam Institute Of Technology<br>
+                                CGPA: 7.33/10</p></li>
+                            <li><p> HSC, Velammal Matriculation School<br>
+                                Percentage: 57.67%</p></li>
+                            <li><p>SSLC, D.A.V Boys Senior Secondary School<br>
+                                Percentage: 81.70%</p></li>
+                            </ul>
+                        </div>
+                        <div id="experience" class="tab-panel">
+                            <p>> Completed Internship at  Vectra Technosoft Pvt. Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- certificates -->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificates-list">
+            <div>
+                <h2>Cisco</h2>
+                <p>Completed Introduction to Packet Tracer and Cybersecurity Essentials</p>
+                <a href="./zee/Cisco.pdf" class="view-container">
+                    <i class="fa fa-eye"></i> View
+                </a>
+            </div>
+            <div>
+                <h2>RedHat</h2>
+                <p>Earned RedHat System Administration Certification (CERTIFICATION ID: 220-086-383).</p>
+                <a href="./zee/RHCSA.pdf" class="view-container">
+                    <i class="fa fa-eye"></i> View
+                </a>
+            </div>  
+            <div>
+                <h2>FullStack</h2>
+                <p>Completed Java FullStack Course.</p>
+                <a href="./zee/FullStack.pdf" class="view-container">
+                    <i class="fa fa-eye"></i> View
+                </a>
+            </div>  
+            <div>
+                <h2>NPTEL</h2>
+                <p>Completed course from NPTEL.</p>
+                <a href="#" class="view-container">
+                    <i class="fa fa-eye"></i> View
+                </a>
+            </div>       
+        </div>
+    </div>
+</div>
+<!-- ----------------mywork----------------------- -->
+<div id="mywork">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+    </div>
+    <div class="work-list">
+        <div class="work">
+            <img src="./zee/side-view-hands-holding-smartphone_23-2149764150.avif" alt="Tracking Location">
+            <div class="layer">
+                <h2>Location</h2>
+                <p>Designed a baggage tracing and handling system using IOT which is based on cloud server. It
+                    aims to provide safety and preventing loss.
+        </div>
+        <!-- <div class="work">
+            <img src="./zee/sample2.jpg" alt="Web Development">
+            <div class="layer">
+                <h2>Web Development</h2>
+                <p>Building modern, responsive, and scalable web applications.</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./zee/sample3.jpg" alt="AI Integration">
+            <div class="layer">
+                <h2>AI Integration</h2>
+                <p>Implementing AI-driven features for smarter applications.</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./zee/sample4.jpg" alt="Cyber Security">
+            <div class="layer">
+                <h2>Cyber Security</h2>
+                <p>Enhancing security in applications through best practices.</p>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------contactme-------------------------->
+<div id="contactme">
+    <div class="container">
+        <div class="row">
+            <!-- Left Side: Contact Details -->
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> kishorekanna791@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-9840840378</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kishore-kanna-r-6102a4214/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>                    
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>                    
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/KishoreKannaR" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./zee/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="contact-right">
+                <form action="submit_form.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-Mail" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- JavaScript for Tabs -->
+    <script>
+        function openTab(evt, tabName) {
+            let i, tabPanel, tabLinks;
+            
+            // Hide all tab content
+            tabPanel = document.getElementsByClassName("tab-panel");
+            for (i = 0; i < tabPanel.length; i++) {
+                tabPanel[i].style.display = "none";
+            }
+            
+            // Remove active class from all tabs
+            tabLinks = document.getElementsByClassName("tab-links");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active-link");
+            }
+
+            // Show the selected tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.classList.add("active-link");
+        }
+
+        // Show the default tab on load
+        document.getElementById("skills").style.display = "block";
+
+        function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+
+    // Add or remove class to body to push content down
+    document.body.classList.toggle("menu-open", menu.classList.contains("show"));
+}
+
+// Close menu when clicking a link
+document.querySelectorAll("#menu li a").forEach(link => {
+    link.addEventListener("click", function() {
+        var menu = document.getElementById("menu");
+        menu.classList.remove("show");  // Hide menu
+        document.body.classList.remove("menu-open"); // Reset body class
+    });
+});
+
+        
+    </script>
+
+</body>
+</html>
