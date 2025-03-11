@@ -582,17 +582,7 @@ nav a:hover {
 .btn.btn2 {
     background: #ff5733;
 }
-/* Message Styling */
-#msg {
-    margin-top: 20px; /* Space between the submit button and the message */
-    font-size: 16px;
-    color: white; /* Default color for success messages */
-    text-align: center; /* Center the message */
-    display: none; /* Initially hidden */
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #333; /* Dark background for contrast */
-}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     #contactme {
@@ -646,10 +636,6 @@ nav a:hover {
         padding: 14px;
         font-size: 16px;
     }
-      #msg {
-        font-size: 14px;
-        padding: 8px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -663,10 +649,6 @@ nav a:hover {
 
     .btn {
         font-size: 14px;
-    }
-     #msg {
-        font-size: 14px;
-        padding: 6px;
     }
 }
 
@@ -694,3 +676,46 @@ nav a:hover {
 /*        font-size: 28px;*/
 /*    }*/
 /*}*/
+/*------------------------span------------------------*/
+#msg-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px; /* Ensures space between button and message */
+    display: flex;
+    justify-content: center; /* Centers message on all screens */
+}
+
+#msg {
+    color: white;
+    background-color: black;/*#333; Slightly dark background for visibility*/
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+    font-size: 14px;
+    max-width: 90%; /* Ensures responsiveness */
+}
+
+@media (max-width: 768px) {
+    .contact-right form {
+        max-width: 100%; /* Make form take full width */
+    }
+
+    #msg {
+        font-size: 13px; /* Slightly smaller font for small screens */
+        padding: 8px;
+        width: 100%; /* Ensure full width for better visibility */
+    }
+}
+
+/*  Mobile View Enhancements */
+@media (max-width: 480px) {
+    .contact-right form {
+        max-width: 100%; /* Make form take full width */
+    }
+
+    #msg {
+        font-size: 13px; /* Slightly smaller font for small screens */
+        padding: 8px;
+    }
+}
+
