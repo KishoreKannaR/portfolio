@@ -585,13 +585,14 @@ nav a:hover {
 #msg {
     margin-top: 15px;
     font-size: 16px;
-    color: white; /* Default message color for success */
+    color: green; /* Default message color for success */
     text-align: center;
     display: none; /* Hidden by default */
     padding: 10px;
     border-radius: 5px;
     background-color: #333;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     #contactme {
@@ -645,11 +646,11 @@ nav a:hover {
         padding: 14px;
         font-size: 16px;
     }
-}
- #msg {
+      #msg {
         font-size: 14px;
         padding: 8px;
     }
+}
 
 @media (max-width: 480px) {
     #contactme {
@@ -663,11 +664,12 @@ nav a:hover {
     .btn {
         font-size: 14px;
     }
-      #msg {
+     #msg {
         font-size: 14px;
         padding: 6px;
     }
 }
+
 /*@media (max-width: 768px) {*/
 /*    .row {*/
 /*        flex-direction: column;*/
@@ -692,4 +694,3 @@ nav a:hover {
 /*        font-size: 28px;*/
 /*    }*/
 /*}*/
-
