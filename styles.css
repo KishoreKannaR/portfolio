@@ -651,6 +651,9 @@ nav a:hover {
         font-size: 14px;
     }
 }
+#msg{
+    color:white;
+}
 
 /*@media (max-width: 768px) {*/
 /*    .row {*/
