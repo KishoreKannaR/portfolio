@@ -637,6 +637,12 @@ nav a:hover {
         font-size: 16px;
     }
 }
+#msg {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: green;
+  }
 
 @media (max-width: 480px) {
     #contactme {
@@ -650,11 +656,11 @@ nav a:hover {
     .btn {
         font-size: 14px;
     }
+     #msg {
+      font-size: 14px;  /* Adjust the font size of the message */
+      padding: 8px;
+    }
 }
-#msg{
-    color:white;
-}
-
 /*@media (max-width: 768px) {*/
 /*    .row {*/
 /*        flex-direction: column;*/
