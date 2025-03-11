@@ -582,6 +582,17 @@ nav a:hover {
 .btn.btn2 {
     background: #ff5733;
 }
+/* Message Styling */
+#msg {
+    margin-top: 20px; /* Space between the submit button and the message */
+    font-size: 16px;
+    color: white; /* Default color for success messages */
+    text-align: center; /* Center the message */
+    display: none; /* Initially hidden */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333; /* Dark background for contrast */
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     #contactme {
@@ -635,6 +646,10 @@ nav a:hover {
         padding: 14px;
         font-size: 16px;
     }
+      #msg {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -648,6 +663,10 @@ nav a:hover {
 
     .btn {
         font-size: 14px;
+    }
+     #msg {
+        font-size: 14px;
+        padding: 6px;
     }
 }
 
