@@ -582,17 +582,6 @@ nav a:hover {
 .btn.btn2 {
     background: #ff5733;
 }
-#msg {
-    margin-top: 15px;
-    font-size: 16px;
-    color: green; /* Default message color for success */
-    text-align: center;
-    display: none; /* Hidden by default */
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #333;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     #contactme {
@@ -646,10 +635,6 @@ nav a:hover {
         padding: 14px;
         font-size: 16px;
     }
-      #msg {
-        font-size: 14px;
-        padding: 8px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -663,10 +648,6 @@ nav a:hover {
 
     .btn {
         font-size: 14px;
-    }
-     #msg {
-        font-size: 14px;
-        padding: 6px;
     }
 }
 
